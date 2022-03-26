@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Gmail{
+    object-fit: contain;
+    height: 80px;
+    margin-left: 5px;
+}
+
+div.Main_Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    kerning: auto;
+    perspective: none;
+    isolation: calc(10, 90, 80);
+    -webkit-animation-fill-mode: none;
+    -webkit-animation-name: inherit;
+    -webkit-backface-visibility: hidden;
+    -webkit-background-origin: var(#c04b37);
+    -moz-box-align: end;
+    -moz-box-flexgroup: initial;
+    -moz-background-inline-policy: each-box;
+    unicode-bidi: embed;
+    quotes: unset;
+    letter-spacing: none;
+    perspective-origin: 0in;
+    transform-origin: 0%;
+    transform-origin: 0fr;
+    object-fit: fill;
+    will-change: none;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.Image_Header{
+    display: flex;
+    align-items: center;
+    outline: invert;
+    nav-down: root;
+    font-kerning: normal;
+    page-break-inside: unset;
+    quotes: unset;
+    -moz-box-flexgroup: initial;
+    -moz-background-inline-policy: each-box;
+    max-inline-size: none;
+    range: auto;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+
+    empty-cells: hide;
+    line-clamp: 90px;
+    image-orientation: from-image;
+}
+
+
+.Image_Header .All{
+    padding: 10px;
+    cursor: pointer;
+    -moz-box-flexgroup: initial;
+    -moz-background-inline-policy: each-box;
+    line-clamp: none;
+    isolation: isolate;
+    user-select: auto;
+    user-zoom: auto;
+    perspective: 0ex;
+    -moz-box-direction: reverse;
+    overflow: hidden;
+    text-underline-position: 3px;
+    inherits: none;
+}
+
+.Middle_Content{
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    line-clamp: none;
+    isolation: isolate;
+    user-select: auto;
+    user-zoom: auto;
+    perspective: 0ex;
+    border-radius: 5px;
+}
+
+.Home_icons{
+    color: gray;
+    padding: 12px;
+}
+
+#grad1 {
+    height: 200px;
+    background: red; 
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    quotes: unset;
+    max-inline-size: none;
+    line-clamp: none;
+    isolation: isolate;
+    user-select: auto;
+    user-zoom: auto;
+    perspective: 0ex;
+    range: auto;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); 
+}
+
+input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    quotes: unset;
+    max-inline-size: none;
+    range: auto;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+    outline: none;
+    font-size: medium;
+    background-color: transparent;
+}
+
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+.Last_Header{
+    quotes: unset;
+    max-inline-size: none;
+    range: auto;
+    line-clamp: none;
+    isolation: isolate;
+    user-select: auto;
+    user-zoom: auto;
+    perspective: 0ex;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+    display: flex;
+    padding-right: 20px;
+}
+
+.Last_Header .All{
+    padding: 10px;
+    cursor: pointer;
+    line-clamp: none;
+    isolation: isolate;
+    user-select: auto;
+    user-zoom: auto;
+    perspective: 0ex;
+}
+
+.Main_Panel{
+    flex: 0.3;
+    max-width: 300px;
+    padding-right: 20px;
+}
+
+button.Panel{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: grey;
+    padding: 15px;
+    quotes: unset;
+    max-inline-size: none;
+    range: auto;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    line-clamp: none;
+    isolation: isolate;
+    user-select: auto;
+    user-zoom: auto;
+    perspective: 0ex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+div button.Panel .AddIcon{
+    margin-right: 5px;
+
+}
+.Main_SideBar:hover, .Active h3, .Active .SideBar_Icons,  .Main_SideBar:hover h3, .Main_SideBar:hover .SideBar_Icons, .Active{
+    /* background-color: #fcfcfc; */
+    -webkit-animation-fill-mode: none;
+    -webkit-animation-name: inherit;
+    line-clamp: none;
+    isolation: isolate;
+    user-select: auto;
+    user-zoom: auto;
+    perspective: 0ex;
+    -webkit-backface-visibility: hidden;
+    font-weight: 800;
+    /* border-bottom: 3px solid #c04b37; */
+
+}
+
+.Main_SideBar:hover h3, .Main_SideBar:hover{
+    background-color: whitesmoke;
+}
+
+.Color{
+    color: #c04b37;
+    column-rule-color: #c04b37;
+    
+}
+
+.Main_SideBar_Icon{
+    inset: none;
+}
+
+div.Main_SideBar{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    quotes: unset;
+    max-inline-size: none;
+    range: auto;
+    line-clamp: none;
+    isolation: isolate;
+    user-select: auto;
+    user-zoom: auto;
+    perspective: 0ex;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    color: grey;
+}
+
+.Main_SideBar .Update{
+    padding: 5px;
+}
+
+div.Main_SideBar h3{
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+    quotes: unset;
+    max-inline-size: none;
+    range: auto;
+    hanging-punctuation: remove;
+    line-clamp: none;
+    isolation: isolate;
+    user-select: auto;
+    user-zoom: auto;
+    perspective: 0ex;
+    transform-origin: 0%;
+    font-weight: 400;
+}
+
+.Email_Front{
+    justify-self: none;
+}
+
+div.Email_Footer{
+    display: flex;
+    justify-content: center;
+    quotes: unset;
+    -webkit-animation-fill-mode: none;
+    -webkit-animation-name: inherit;
+    -webkit-backface-visibility: hidden;
+    max-inline-size: none;
+    range: auto;
+    justify-tracks: none;
+    overflow-y: unset;
+    grid-area: span;
+
+    initial-value: start;
+    overflow: -moz-hidden-unscrollable;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+
+}
+
+.Emails:hover{
+    background-color: whitesmoke;
+    border-width: 3px;
+    -webkit-animation-fill-mode: none;
+    -webkit-animation-name: inherit;
+    -webkit-backface-visibility: hidden;
+    overflow: -moz-hidden-unscrollable;
+    hanging-punctuation: remove;
+    perspective: 0vw;
+    transform-origin: 0%;
+}
+
+.Emails h4{
+    font-size: 14px;
+    margin-left: 15px;
+    overflow: -moz-hidden-unscrollable;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+}
+
+.Emails:hover{
+    background-color: whitesmoke;
+    border-width: 3px;
+    overflow: -moz-hidden-unscrollable;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+}
+
+.Emails h4{
+    font-size: 14px;
+    margin-left: 15px;
+    overflow: -moz-hidden-unscrollable;
+    -webkit-animation-fill-mode: none;
+    -webkit-animation-name: inherit;
+    -webkit-backface-visibility: hidden;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+    ruby-position: inline;
+    ruby-overhang: end;
+    ruby-overhang: end;
+
+}
+
+
+.Email_Footer .Footer_Icons{
+    margin: 7px;
+    overflow: -moz-hidden-unscrollable;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+    cursor: pointer;
+}
+
+.main_body{
+    display: flex;
+    overflow: -moz-hidden-unscrollable;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+    height: 100vh;
+}
+
+body{
+    height: 100vh;
+    overflow: -moz-hidden-unscrollable;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+    overflow-y: hidden;
+}
+
+div.Email_list{
+    overflow: -moz-hidden-unscrollable;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+    flex: 1;
+    overflow: scroll;
+}
+
+.Front_End{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    overflow: -moz-hidden-unscrollable;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+    padding: 8px;
+}
+
+.Front_End_left{
+    display: flex;
+    align-items: center;
+}
+
+.Front_End .Email_Main_Icons{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.Emails{
+    min-width: 200px;
+    display: flex;
+    overflow: -moz-hidden-unscrollable;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+    -webkit-animation-fill-mode: none;
+    -webkit-animation-name: inherit;
+    -webkit-backface-visibility: hidden;
+    padding: 15px;
+    cursor: pointer;
+    color: grey;
+    border-width: 0px;
+    align-items: center;
+}
+
+.Email_Portion{
+    position: sticky;
+    overflow: -moz-hidden-unscrollable;
+    hanging-punctuation: remove;
+    transform-origin: 0%;
+    top: 0;
+    -webkit-animation-fill-mode: none;
+    -webkit-animation-name: inherit;
+    -webkit-backface-visibility: hidden;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+    z-index: 999;
+}
+
+.Options{
+    background-color: whitesmoke;
+    border-width: 3px;
+    color: red;
+    overflow: -moz-hidden-unscrollable;
+    hanging-punctuation: remove;
+    -webkit-animation-fill-mode: none;
+    -webkit-animation-name: inherit;
+    -webkit-backface-visibility: hidden;
+    transform-origin: 0%;
+    border-bottom: 3px solid red;
+}
+
+.Options .Icons{
+    color: red;
+    overflow: -moz-hidden-unscrollable;
+    hanging-punctuation: remove;
+    orphans: unset;
+    scroll-padding-top: 0;
+    lighting-color: whitesmoke;
+    page-break-after: none;
+    -webkit-box-ordinal-group: unset;
+    -webkit-animation-fill-mode: none;
+    -webkit-animation-name: inherit;
+    -webkit-backface-visibility: hidden;
+    transform-origin: 0%;
+}
+
+
+
