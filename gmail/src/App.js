@@ -1,6 +1,4 @@
 import React from 'react'
-import logo from './logo.svg';
-import './App.css';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import MenuIcon from '@mui/icons-material/Menu';

@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import StarIcon from '@mui/icons-material/Star';
 import LabelImportantIcon from '@mui/icons-material/LabelImportant';
 import DraftsIcon from '@mui/icons-material/Drafts';
